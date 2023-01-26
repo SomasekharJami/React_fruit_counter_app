@@ -1,0 +1,104 @@
+/* Write your CSS here */
+.mainCon {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffd569;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innerCon {
+  width: 85vw;
+  background-color: #ffffff;
+  font-family: Roboto;
+  border-radius: 2vw;
+}
+
+@media screen and (max-width: 767px) {
+  .innerCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3vw;
+  }
+  .mainH {
+    font-size: 4vw;
+  }
+  .img1 {
+    width: 40vw;
+    margin: 10px;
+  }
+  .subCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .imgCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .bton {
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 1.5vw;
+    border: none;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .mangoes_No {
+    color: #ffd569;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .innerCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3vw;
+  }
+  .mainH {
+    font-size: 3vw;
+  }
+  .img1 {
+    width: 25vw;
+    margin: 10px;
+  }
+  .subCon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .imgCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+  .bton {
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 1.5vw;
+    border: none;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .mangoes_No {
+    color: #ffd569;
+  }
+}
